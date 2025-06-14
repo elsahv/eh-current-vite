@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+html {
+  background-color: #f1f5f9;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 18px;
+}
+
+#icon {
+  padding-right: 2px;
+}
+
+._shadowText1 {
+  text-shadow: 2px 2px 2px black;
+}
+
+._shadowText2 {
+  text-shadow: 2px 2px 2px teal;
+}
