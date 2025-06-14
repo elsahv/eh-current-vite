@@ -8,7 +8,7 @@ const Contact = () => {
               You can contact me by emailing:
               <span class="">
                 <a
-                  class="underline rounded text-cerulean hover:opacity-80"
+                  class="underline rounded text-cerulean "
                   href="mailto:elsahovey@gmail.com"
                 >
                   elsahvy@gmail.com

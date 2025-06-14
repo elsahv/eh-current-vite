@@ -54,14 +54,14 @@ const Websites = () => {
             <img
               src={website.screenshot}
               alt="screenshot!!"
-              class="border border-purple-300"
+              class="opacity-80 hover:opacity-100 border border-purple-300"
             />
           </a>
           <p class="text-2xl font-medium md:px-5 px-2 pt-4">
             a web design service for small businesses and creatives... and a way
             to push my creativity to the limits, all while exploring side hustle
             potential.{" "}
-            <span className="font-semibold">
+            <span className="font-semibold hover:text-teal-500">
               <a href={website.siteLink}>visit {website.title} </a>
             </span>
           </p>

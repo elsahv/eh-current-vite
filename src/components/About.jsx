@@ -24,15 +24,12 @@ const About = () => {
         </p>
       </div>
 
-      <section
-        id="about-content-wrapper"
-        class="bg- opacity-90 hover:opacity-100 "
-      >
+      <section id="about-content-wrapper" class="">
         <div id="about-me" class="bg- mb-5 pb-5">
           <img
             src="https://dl.dropboxusercontent.com/scl/fi/v987mn7uciubojuyzt2l0/eh-img.jpg?rlkey=kud67wutqibhy9iwna9z50679&st=4vy6xe1e&dl=0"
             alt=""
-            class="2xl:w-1/2 w-3/4 mt-2  pr-5 pl-2"
+            class="2xl:w-1/2 w-3/4 mt-2  pr-5 pl-2 opacity-90"
           />
           <div id="about" class="pl-3 pt-5 pr-5">
             <h3 class="font-bold text-xl">About</h3>
