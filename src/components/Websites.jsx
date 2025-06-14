@@ -38,7 +38,7 @@ const Websites = () => {
   return (
     <div className="">
       {websites.map((website) => (
-        <div key={website.desc1} className="mt-5 pt-5">
+        <div key={website.desc1} className="mt-5 pt-4">
           <div className="pl-2 text-gray-600 text-lg flex items-center font bold pt-5 pb-1 mt-5">
             <div id="icon" className="">
               {website.icon1}
