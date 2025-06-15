@@ -3,6 +3,7 @@ import roof from "../../src/images/roof.png";
 import TestImg7 from "../../src/images/jungle.png";
 import { FaReact } from "react-icons/fa";
 import { SiAstro } from "react-icons/si";
+import Card from "./Card";
 
 const websites = [
   {
@@ -38,34 +39,15 @@ const Websites = () => {
   return (
     <div className="">
       {websites.map((website) => (
-        <div key={website.desc1} className="mt-5 pt-4">
-          <div className="pl-2 text-gray-600 text-lg flex items-center font bold pt-5 pb-1 mt-5">
-            <div id="icon" className="">
-              {website.icon1}
-            </div>
-            <div className="">{website.desc1}</div>
-            <div id="icon" className="pl-5 ">
-              {" "}
-              {website.icon2}
-            </div>
-            <div className=""> {website.desc2}</div>
-          </div>
-          <a href={website.siteLink}>
-            <img
-              src={website.screenshot}
-              alt="screenshot!!"
-              class="opacity-80 hover:opacity-100 border border-purple-300"
-            />
-          </a>
-          <p class="text-2xl font-medium md:px-5 px-2 pt-4">
-            a web design service for small businesses and creatives... and a way
-            to push my creativity to the limits, all while exploring side hustle
-            potential.{" "}
-            <span className="font-semibold hover:text-teal-500">
-              <a href={website.siteLink}>visit {website.title} </a>
-            </span>
-          </p>
-        </div>
+        <Card
+          key={website.desc1}
+          title={website.title}
+          desc2={website.desc2}
+          screenshot={website.screenshot}
+          icon1={website.icon1}
+          icon2={website.icon2}
+          siteLink={website.siteLink}
+        />
       ))}
     </div>
   );

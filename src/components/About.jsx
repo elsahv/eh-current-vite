@@ -16,11 +16,8 @@ const About = () => {
     <>
       <div id="intro" class=" ml-2 pl-1 2xl:pr-5 2xl:mr-5 mt-[90px]">
         <p class="text-lg pt-5 pb-2">
-          Hi there, I'm Elsa. I enjoy{" "}
-          <span className="underline">
-            <a href="/#about-me"> creating websites </a>
-          </span>
-          and combining niches and creating art.
+          Hi there, I'm Elsa. I build websites for small businesses and
+          creatives.
         </p>
       </div>
 

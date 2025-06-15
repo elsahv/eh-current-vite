@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <div id="contact" class="2xl:mt-5 2xl:pt-5 2xl:pb-[100px] pr-5 pl-1">
+    <div id="contact" class="2xl:mt-5 2xl:pt-5 py-[100px] pr-5 pl-1">
       <div id="contact-container" class="my-5 pt-5">
         <div id="contact-grid" class="flex flex-col bg-">
           <div id="sq1" class="bg-test pl-1 pt-5">

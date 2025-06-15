@@ -1,9 +1,12 @@
 const Header = () => {
   return (
     <div>
-      <header class="">
-        <div id="logo" class="lg:text-8xl text-7xl pb-1">
-          <a href="/"> Elsa Hovey</a>
+      <header class="opacity-">
+        <div id="logo" class=" lg:text-8xl text-7xl ">
+          <a href="/" class="">
+            {" "}
+            Elsa Hovey
+          </a>
         </div>
       </header>
       ;
