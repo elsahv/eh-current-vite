@@ -1,13 +1,22 @@
 const items = [
   {
+    paragraph:
+      "I'm a web developer based in Joshua Tree, CA...I became interested in programming when I wanted to bring my own passion projects to life. I mainly focus on building fast, modern Javascript websites using: React, Astro, and Vite. I also enjoy working with WordPress themes and custom PHP code to create unique web experiences.",
+  },
+
+  {
     // ABOUT ME
     paragraph:
-      "I'm a web developer based in Joshua Tree, CA...I became interested in programming when I wanted to bring my own passion projects to life, and did so using by learning javascript.",
+      "I'm a web developer based in Joshua Tree, CA...I became interested in programming when I wanted to bring my own passion projects to life. I mainly focus on building fast, modern Javascript websites using: React, Astro, and Vite. I also enjoy working with WordPress themes and custom PHP code to create unique web experiences.",
   },
-  // ABOUT PROJECTS- (how they help)
+
+  // {
+  //   paragraph:
+  //     "wEach website project is built with my own interests in mind. a way to push my creativity to the limits, all while exploring side hustle potential. My days are spent creating niche websites and solutions for small business owners and creatives. Expertise gained through project learning and combining unique niches.  Tagline: 'the world is so niched now, I can help people combine their own random niches, and create unique niche!!!-By experiencing the process of building up these websites, I've gained not only an ability to work with unique colors, and to learn the skills needed to become a very developer.' ",
+  // },
   {
     paragraph:
-      "wEach website project is built with my own interests in mind. a way to push my creativity to the limits, all while exploring side hustle potential. My days are spent creating niche websites and solutions for small business owners and creatives. Expertise gained through project learning and combining unique niches.  Tagline: 'the world is so niched now, I can help people combine their own random niches, and create unique niche!!!-By experiencing the process of building up these websites, I've gained not only an ability to work with unique colors, and to learn the skills needed to become a very developer.' ",
+      " I mostly work with artists, creatives, and small businesses who want a site that’s easy to update, looks great, and runs fast. Whether it’s a portfolio, a blog, or a full website, I build tools that help people share their work online—without the tech headaches. ",
   },
 ];
 
@@ -16,7 +25,7 @@ const About = () => {
     <>
       <div id="intro" class=" ml-2 pl-1 2xl:pr-5 2xl:mr-5 mt-[90px]">
         <p class="text-lg pt-5 pb-2">
-          Hi there, I'm Elsa. I build websites for small businesses and
+          Hi there... I'm Elsa. I build websites for small businesses and
           creatives.
         </p>
       </div>
