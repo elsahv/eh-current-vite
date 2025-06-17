@@ -26,7 +26,7 @@ const About = () => {
             alt=""
             class="2xl:w-1/2 w-3/4 mt-2  pr-5 pl-2 opacity-90"
           />
-          <div id="about" class="pl-3 pt-5 pr-5">
+          <div id="about" class="pl-3 pt-5 2xl:pr-5">
             <h3 class="font-bold text-xl">About</h3>
             {items.map((item) => (
               <div>

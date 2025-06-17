@@ -10,12 +10,10 @@ const Card = ({
   screenshot,
 }) => {
   return (
-    <div key={title} className="opacity-90 my-5 py-5">
-      <div className=" text-3xl flex items-center space-x-3 font bold pt-5 pb-2 mt-5">
-        <span className=" pb-2 pl-3 ml-2 ">
-          <a href={siteLink}> {title} </a>
-        </span>
-        <div id="icon" className="">
+    <div key={title} className="opacity-80 hover:opacity-100 my-5 py-5">
+      <div className="2xl:text-3xl text-2xl flex items-center font bold pt-5 pb-2 mt-5">
+        <h2 className=" pb-2 pl- ml-2 ">{title}</h2>
+        <div id="icon" className="2xl:ml-5 ml-3">
           {icon1}
         </div>
         {/* <div className="">{desc1}</div> */}
@@ -29,17 +27,17 @@ const Card = ({
         <img
           src={screenshot}
           alt="screenshot!!"
-          class="opacity-80 hover:opacity-100 border border-purple-300"
+          class="border border-purple-300"
         />
       </a>
-      <div className="px-5 mx-5 mt-1 pt-2">
-        <p class="text-2xl ">
+      <div className="lg:px-5 px-1 lg:mx-5 mx-1 mt-1 pt-2">
+        <p class="xl:text-2xl md:text-lg">
           a web design service for small businesses and creatives... and a way
           to push my creativity to the limits, all while exploring side hustle
           potential.{" "}
         </p>
-        <button class="bg-[#007ba5] text-[#CDD1E2] rounded  px-2 pb-1 mt-2">
-          visit site
+        <button class="bg-[#007ba5] text-[#CDD1E2] rounded  px-2 pb-1 mt-3">
+          <a href={siteLink}>visit site</a>
         </button>
       </div>
     </div>
