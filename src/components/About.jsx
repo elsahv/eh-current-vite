@@ -1,22 +1,11 @@
 const items = [
   {
     paragraph:
-      "I'm a web developer based in Joshua Tree, CA...I became interested in programming when I wanted to bring my own passion projects to life. I mainly focus on building fast, modern Javascript websites using: React, Astro, and Vite. I also enjoy working with WordPress themes and custom PHP code to create unique web experiences.",
+      "I'm a web developer based in Joshua Tree, CA...My main focus involves building fast Javascript websites using: React, Astro, and Vite. I also enjoy working with WordPress themes and custom PHP code to create unique web experiences.",
   },
-
-  {
-    // ABOUT ME
-    paragraph:
-      "I'm a web developer based in Joshua Tree, CA...I became interested in programming when I wanted to bring my own passion projects to life. I mainly focus on building fast, modern Javascript websites using: React, Astro, and Vite. I also enjoy working with WordPress themes and custom PHP code to create unique web experiences.",
-  },
-
-  // {
-  //   paragraph:
-  //     "wEach website project is built with my own interests in mind. a way to push my creativity to the limits, all while exploring side hustle potential. My days are spent creating niche websites and solutions for small business owners and creatives. Expertise gained through project learning and combining unique niches.  Tagline: 'the world is so niched now, I can help people combine their own random niches, and create unique niche!!!-By experiencing the process of building up these websites, I've gained not only an ability to work with unique colors, and to learn the skills needed to become a very developer.' ",
-  // },
   {
     paragraph:
-      " I mostly work with artists, creatives, and small businesses who want a site that’s easy to update, looks great, and runs fast. Whether it’s a portfolio, a blog, or a full website, I build tools that help people share their work online—without the tech headaches. ",
+      "I became interested in programming when I wanted to bring my own passion projects to life.  I wanted to push my creativity to the limits, all while exploring side hustle potentials. I am most active with Laughing Coyote Dev, you can find me there, working with artists, creatives, and small businesses who want a site that’s easy to update, looks great, and runs fast. Whether it’s a portfolio, a blog, or a full website, I build tools that help people share their work online—without the tech headaches. I've gained all my expertise through project-learning and combining unique niches, and look forward to helping you with your next project. Feel free to take a look at my work!",
   },
 ];
 

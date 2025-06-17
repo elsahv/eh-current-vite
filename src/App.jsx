@@ -20,25 +20,21 @@ const App = () => {
       {/* RIGHT SIDE */}
       <section
         id="right-side"
-        className=" lg:px-5 font-medium border-l border-onyx 2xl:h-screen h-full md:absolute relative right-0 sm:bottom md:w-3/5 w-full md:overflow-y-scroll overflow-x-hidden xl:p-5"
+        className="lg:px-5 font-medium border-l border-onyx 2xl:h-screen h-full md:absolute relative right-0 sm:bottom md:w-3/5 w-full md:overflow-y-scroll overflow-x-hidden "
       >
-        <div id="featured-work" class="my-5 mx-3 pt-5 py-5 md:pl-5 pl-1 ">
+        <div id="featured-work" class=" mx-3 pt-5 md:pl-5 pl-1 ">
           <div id="" class="mt-5 lg:pl-5">
-            <div id="" class="md:mr-5 mx-0">
-              <div class="pb-2 font- text-">
-                <div id="paragraph-container" class="2xl:pr-5 2xl:mr-5">
-                  <p id="featured work-title" class="text-xl mb-5">
-                    Below shows my featured work, you can find that I enjoy
-                    coding projects using:
-                  </p>
-                  <Websites />
-                  <div id="conditional-mobile" className="md:invisible visible">
-                    <Contact />
-                  </div>
+            {/* <div id="" class="md:mr-5 mx-0"> */}
+            <div class="pb-2">
+              <div id="paragraph-container" class="2xl:pr-5 2xl:mr-5">
+                <Websites />
+                <div id="conditional-mobile" className="md:invisible visible">
+                  <Contact />
                 </div>
-                <br />
               </div>
+              <br />
             </div>
+            {/* </div> */}
           </div>
         </div>
       </section>
