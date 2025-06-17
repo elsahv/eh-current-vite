@@ -8,8 +8,7 @@ import Card from "./Card";
 const websites = [
   {
     title: "Laughing Coyote",
-    desc1: "astro",
-    desc2: "reactJS ",
+    desc: "a web design service for small businesses and creatives... and a way to push my creativity to the limits, all while exploring side hustle potential.",
     screenshot: lc,
     icon1: <SiAstro />,
     icon2: <FaReact />,
@@ -17,17 +16,15 @@ const websites = [
   },
   {
     title: "Writing to Better Health",
-    desc1: "vite",
-    desc2: "reactJS",
     screenshot: wtbh,
     icon1: <SiVite />,
     icon2: <FaReact />,
+    desc: "a blog about mental health, wellness, and personal growth",
     siteLink: "https://writingtobetterhealth.com/",
   },
   {
     title: "The Indoor Jungle Project",
-    desc1: "php",
-    desc2: "wordpress",
+    desc: "a blog about houseplants, gardening, and indoor plant care",
     screenshot: TestImg7,
     icon1: <SiPhp />,
     icon2: <FaWordpress />,
@@ -40,10 +37,9 @@ const Websites = () => {
     <div className="flex flex-col space-y-8">
       {websites.map((website) => (
         <Card
-          key={website.desc1}
+          key={website.title}
           title={website.title}
-          desc1={website.desc1}
-          desc2={website.desc2}
+          desc={website.desc}
           screenshot={website.screenshot}
           icon1={website.icon1}
           icon2={website.icon2}

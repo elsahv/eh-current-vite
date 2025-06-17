@@ -5,7 +5,15 @@ const items = [
   },
   {
     paragraph:
-      "I became interested in programming when I wanted to bring my own passion projects to life.  I wanted to push my creativity to the limits, all while exploring side hustle potentials. I am most active with Laughing Coyote Dev, you can find me there, working with artists, creatives, and small businesses who want a site that’s easy to update, looks great, and runs fast. Whether it’s a portfolio, a blog, or a full website, I build tools that help people share their work online—without the tech headaches. I've gained all my expertise through project-learning and combining unique niches, and look forward to helping you with your next project. Feel free to take a look at my work!",
+      "I became interested in programming when I wanted to bring my own passion projects to life.  I wanted to push my creativity to the limits, all while exploring side hustle potentials. ",
+  },
+  {
+    paragraph:
+      "I am most active with Laughing Coyote Dev, you can find me there, working with artists, creatives, and small businesses who want a site that’s easy to update, looks great, and runs fast. Whether it’s a portfolio, a blog, or a full website, I build tools that help people share their work online—without the tech headaches. ",
+  },
+  {
+    paragraph:
+      "I've gained all my expertise through project-learning and combining unique niches, and look forward to helping you with your next project. Feel free to take a look at my work!",
   },
 ];
 
@@ -29,9 +37,7 @@ const About = () => {
           <div id="about" class="pl-3 pt-5 2xl:pr-5">
             <h3 class="font-bold text-xl">About</h3>
             {items.map((item) => (
-              <div>
-                <p className="pb-2 mb-3">{item.paragraph} </p>
-              </div>
+              <p className="pb-2 mb-3">{item.paragraph} </p>
             ))}
           </div>
         </div>
